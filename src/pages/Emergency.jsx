@@ -19,7 +19,7 @@ const Emergency = () => {
                 boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
             }}>
                 <h2>Call Now for Immediate Dispatch</h2>
-                <a href="tel:555-0123" style={{
+                <a href="tel:4042469810" style={{
                     display: 'block',
                     backgroundColor: '#EF4444',
                     color: 'white',
@@ -31,7 +31,7 @@ const Emergency = () => {
                     textDecoration: 'none'
                 }}>
                     <FaPhoneAlt style={{ marginRight: '1rem' }} />
-                    (555) 012-3456
+                    (404) 246-9810
                 </a>
                 <p>Average Response Time: <strong>45 Minutes</strong></p>
             </div>

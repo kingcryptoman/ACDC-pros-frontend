@@ -9,6 +9,8 @@ const Navbar = () => {
         { name: 'Shop', path: '/shop' },
         { name: 'Invest', path: '/invest' },
         { name: 'Pros', path: '/pros' },
+        { name: 'Online Consulting', path: '/online-consulting' },
+        { name: 'Estimator', path: '/estimator' },
     ];
 
     const styles = {
@@ -56,7 +58,7 @@ const Navbar = () => {
             fontSize: '0.9rem',
         },
         emergencyBtn: {
-            backgroundColor: 'var(--color-secondary)',
+            backgroundColor: '#EF4444',
             color: 'var(--color-white)',
             border: 'none',
             padding: '0.75rem 1.5rem',
@@ -95,9 +97,9 @@ const Navbar = () => {
                             {item.name}
                         </Link>
                     ))}
-                    <button style={styles.emergencyBtn}>
+                    <Link to="/emergency" style={styles.emergencyBtn}>
                         24/7 Emergency
-                    </button>
+                    </Link>
                 </nav>
             </div>
         </header>

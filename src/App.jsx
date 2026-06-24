@@ -9,6 +9,9 @@ import Pros from './pages/Pros';
 import Invest from './pages/Invest';
 import Emergency from './pages/Emergency';
 import HandymanServices from './pages/HandymanServices';
+import VideoSession from './pages/VideoSession';
+import Membership from './pages/Membership';
+import Admin from './pages/Admin';
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
           <Route path="/invest" element={<Invest />} />
           <Route path="/emergency" element={<Emergency />} />
           <Route path="/handyman" element={<HandymanServices />} />
+          <Route path="/video-session" element={<VideoSession />} />
+          <Route path="/membership" element={<Membership />} />
+          <Route path="/admin" element={<Admin />} />
         </Routes>
       </Layout>
     </Router>
